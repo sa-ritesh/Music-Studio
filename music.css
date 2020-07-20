@@ -486,7 +486,6 @@ height: 100%;
 	position: absolute;
 	left: -40%;
 	background-color: white;
-	text-align: center;
 }
 .queue-top ul{
 	display: none;
@@ -521,6 +520,7 @@ height: 100%;
 .queue-name p{
 	padding:0px;
 	margin:0px;
+	text-align: left;
 
 }
 .queue-left{
@@ -739,6 +739,13 @@ height: 100%;
 @media screen and (max-width: 580px){
 	header{
 		width: 560px;
+	}
+	.queue{
+		font-size:0.5rem;
+	}
+
+	.trending{
+		height: auto ;
 	}
 	body{
 		width:560px;
