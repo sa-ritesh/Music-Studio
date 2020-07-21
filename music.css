@@ -750,6 +750,9 @@ height: 100%;
 	body{
 		width:560px;
 	}
+	.curr-mid input{
+ 	        width: 3rem;
+        }
 }
 
 
