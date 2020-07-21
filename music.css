@@ -611,7 +611,10 @@ height: 100%;
 	margin-left: 2%;
 	}
 	#logo i{
-		font-size: 1rem;
+		font-size: 2.5rem;
+	}
+	#logo #studio-name{
+		font-size: 1.3rem;
 	}
 	.queue{
 		margin-left: -40px;
