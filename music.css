@@ -628,6 +628,11 @@ height: 100%;
 	.current-playing{
 		font-size: 0.7rem;
 	}
+	
+	.header-left
+	{
+		margin-left: 2%;
+	}
 }
 @media screen and (max-width: 900px){
 	.current-playing{
