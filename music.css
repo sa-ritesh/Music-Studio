@@ -606,7 +606,13 @@ height: 100%;
 	.heart{
 		font-size: 200%;
 	}
-
+         
+	.header-left{
+	margin-left: 2%;
+	}
+	#logo i{
+		font-size: 1rem;
+	}
 	.queue{
 		margin-left: -40px;
 	}
