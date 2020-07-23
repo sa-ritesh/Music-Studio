@@ -294,6 +294,12 @@ height: 100%;
 .mid-bottom{
 	font-size: 200%;
 }
+.mid-bottom{
+	font-size: 200%;
+}
+.mid-bottom p{
+	font-size: 55%;
+}
 .mid-bottom input{
 	width: 10rem;
 }
@@ -742,6 +748,9 @@ height: 100%;
  }
  .curr-left .curr-image{
  	width: 70%;
+ }
+ .curr-details{
+ 	margin-left: 10px;
  }
  .curr-right{
  	font-size: 0.8rem;
