@@ -143,10 +143,13 @@ main{
 	display: flex;
 	justify-content: space-around;
 }
-.trending img{
+.trending .t-individual{
 	width: 32%;
 	transition:all;
 	transition-duration: 0.3s;
+}
+.t-individual img{
+	width: 100%;
 }
 .trending img:hover{
 	filter: brightness(150%);
