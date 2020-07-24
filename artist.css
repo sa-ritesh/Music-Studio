@@ -231,7 +231,6 @@ outline: none;
 	width: 36%;
 	height: 100%;
 	display: flex;
-	border:1px solid pink;
 	background-image: linear-gradient(to bottom,yellow,red);
 	z-index: 
 }
