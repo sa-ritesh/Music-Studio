@@ -457,7 +457,7 @@ height: 100%;
    font-size: 200%;
    text-align: center;
    box-sizing: border-box;
-   overfw: hidden;
+   overflow: hidden;
 }
 /*Mood Section Images*/
 .mood img{
