@@ -1,3 +1,4 @@
+/*Common Properties*/
 main{
 	display: flex;
 }
@@ -6,29 +7,33 @@ body{
 	font-family: sans-serif !important;
 	color: white;
 }
+/*Header Section*/
 header{
 	margin-top: 1.4%;
 }
+/*Properties to all divs*/
 div{
 	display: inline-block;
 }
+/*Properties to all anchor Tags*/
 a{
 	text-decoration: none;
 	color: white;
 }
+/*Properties to all Buttons*/
 button{
 	outline: none;
 	cursor: pointer;
 }
-.icon{
-	color: white;
-	cursor: pointer;
-}
+/*Specific Properties*/
+/*Header Section*/
 .one{
 	display: flex;
 	justify-content: space-between;
 	flex-wrap: wrap;
 }
+/*Header Section Left*/
+/*It includes logo, website name, fav tab and queue Buttons*/
 .header-left{
 	width: 40%;
 	margin-left: 4%;
@@ -42,6 +47,11 @@ button{
 .margin-r{
 	margin-right: 10px;
 }
+/*Logo*/
+.icon{
+	color: white;
+	cursor: pointer;
+}
 #logo{
 	display: flex;
 	align-items: center;
@@ -50,6 +60,7 @@ button{
 	font-size: 350%;
 	color: white;
 }
+/*Bhajan Studio-Heading*/
 #logo #studio-name{
 	font-size: 150%;
 	color: white;
@@ -57,6 +68,7 @@ button{
 	margin-left: 1%;
 
 }
+/*Favourite Button*/
 #favourite{
 	box-sizing: border-box;
 
@@ -68,18 +80,22 @@ button{
 	box-sizing: border-box;
 
 }
+/*Queue Button*/
 .queue{
 display: none;
 }
+/*Home Button*/
 .back{
 	display: none;
 }
+/*Header-Right*/
+/*It includes Search Bar, Notification Bell, Profile*/
 .header-right{
 	display: flex;
 	flex-wrap: nowrap;
 	width: 45%;
-
 }
+/*Search Content*/
 .search{
 	display: flex;
 	width: 60%;
@@ -126,7 +142,7 @@ outline: none;
 .search .fa-microphone{
 	border-radius: 0% 20% 20% 0%;
 }
-
+/*Notification Bell*/
 .notification{
 	display: flex;
 	justify-content: space-around ;
@@ -138,12 +154,16 @@ outline: none;
 	font-size: 190%;
 	box-sizing: border-box;
 }
+/*Profile Picture*/
 .notification #my-pic{
 	width: 35%;
 	border-radius: 50%;
 	box-shadow: 0px 0px 1px 2px grey;
 
 }
+/*Current Playing Section*/
+/*Visible on Clicking the latest song*/
+/*It is visible at bottom of the screen*/
 .current-playing{
 	position: fixed;
 	bottom: 0%;
@@ -157,7 +177,8 @@ outline: none;
 	z-index: 2;
 	width: 100%;
 }
-
+/*Current Playing Left-Section*/
+/*It includes Song Image, Name , Singer and Heart Icon*/
 .curr-left{
 	width: 30%;
 	display: flex;
@@ -165,6 +186,7 @@ outline: none;
 	justify-content: space-around;
 	font-size: 140%;
 }
+/*Current Playing Song Image */
 .curr-image{
 	width: 30%;
 	height: 100%;
@@ -177,12 +199,15 @@ outline: none;
 .fa-heart:hover{
 	color: red;
 }
+/*Current Playing Song Name */
 .curr-name-2{
 	display: block;
 }
 .curr-details{
 	margin-left: 10px;
 }
+/*Current Playing Mid-Section*/
+/*It includes Many Buttonslike pause and play, length of the song*/
 .curr-mid div{
 	display: block;
 }
@@ -209,6 +234,8 @@ outline: none;
 .mid-bottom input{
 	width: 10rem;
 }
+/*Current Playing Right-Section*/
+/*It includes Miracast Icon, Volume Icon, and Playlist Icon*/
 .curr-right{
 	width: 30%;
 	display: flex;
@@ -216,17 +243,20 @@ outline: none;
 	align-items: center;
 	font-size: 200%;      
 }
+/*Main Section*/
 .main-content{
 	width: 60%;
 	margin:3% 2% 0% 4%;
 	display: inline-block;
 }
+/*Artits Section*/
 .artist-card{
 	display: flex;
 	justify-content: space-between;
 	background-color:#081352;
-,	width: 100%;
+	width: 100%;
 }
+/*Artits Image*/
 .artist-c-image{
 	width: 36%;
 	height: 100%;
@@ -238,6 +268,7 @@ outline: none;
 	width: 100%;
 	height: 102%;
 }
+/*Artits Details*/
 .artist-c-details{
 	width: 60%;
 	display: flex;
@@ -253,6 +284,8 @@ outline: none;
 	margin:0px;
 	font-size: 0.9rem;
 }
+/*Artist Details 1*/
+/*It includes Singer Name and Author and Followers*/
 .artist-c-details-1{
 	display: flex;
 	justify-content: space-between;
@@ -263,7 +296,8 @@ outline: none;
 	padding:0px;
 	margin:0px;
 }
-
+/*Artist Details 3*/
+/*It includes Play Button and Follow Button*/
 .artist-c-details-3 {
 	display: flex;
 	justify-content: space-between;
@@ -273,8 +307,7 @@ outline: none;
 .artist-c-details-3-right{
 	margin-right: 5%;
 }
-.artist-c-details-4{
-}
+/*Artist Details Play Button*/
 .artist-c-details-3-left button{
 	border: none;
 	width: 7rem;
@@ -285,14 +318,15 @@ outline: none;
 }
 .artist-c-details-3-left button:hover{
 	background-image: linear-gradient(90deg,#e218e2, blue);
-
 }
+/*Artist Playlist*/
 .artist-playlist{
 	display: flex;
 	flex-direction: column;
 	width: 100%;
 	margin-top: 2.5rem;
 }
+/*Artist Playlist Individual Songs*/
 .artist-individual{
 	display: flex;
 	justify-content: space-around;
@@ -304,6 +338,8 @@ outline: none;
 .artist-individual:hover{
 	background-color: black;
 }
+/*Artist Playlist Left*/
+/*It includes Song Image Name and Author*/
 .artist-playlist-left{
 	display: flex;
 	justify-content: flex-start;
@@ -313,16 +349,19 @@ outline: none;
 .artist-playlist-image{
 	width: 15%;
 }
+/*Artist Playlist Song Image*/
 .artist-playlist-image img{
 	width: 100%;
 }
-
+/*Artist Playlist Song Details*/
 .artist-playlist-info{
 	margin-left: 6%;
 }
 .artist-playlist-info p{
 	font-size: 1.4rem;
 }
+/*Artist Playlist Right*/
+/*It includes Heart and Plus Icon*/
 .artist-playlist-right{
 	display: flex;
 	justify-content: space-around;
@@ -334,9 +373,12 @@ outline: none;
 .artist-playlist-right i{
 	font-size: 2rem;
 }
+/*Queue Section*/
+/*Similar Artist Section and Recently Played Section*/
 #q-song-name{
 	font-weight: bolder;
 }
+/*Heart Icon*/
 .heart{
 	font-size: 1.6rem;
 }
@@ -359,8 +401,9 @@ outline: none;
 	font-size: 1.1rem;
 	background-color: #090921;
 	z-index: 2;
-
 }
+/*Queue Section Top*/
+/*It includes Heading and View All Button*/
 .queue-top{
 	position: sticky;
 	top: 0%;
@@ -368,16 +411,57 @@ outline: none;
 	text-align: center;
 	padding: 0px 10px;
 	display: flex;
-
 	color: white;
 	justify-content: space-around;
 	text-align: center;
 	z-index: 10;
 	background-color: #090921;
 }
+/*Queue Heading*/
+.queue-top h1{
+	padding: 0px;
+	margin: 0px;
+	font-size: 2rem;
+}
+
+.queue-2 .queue-bottom{
+   font-size: 1rem;
+}
+/*View All button*/
+.queue-top button{
+	cursor: pointer;
+	background: transparent;
+	border:none;
+	color: #58b6e0;
+	font-size: 1.2rem;
+	position: relative;
+}
+.queue-1 .queue-top button,
+.queue-2 .queue-top button {
+	font-size: 1rem;
+}
+.queue-top button:focus{
+	outline: none;
+}
+.queue-top button:focus ul{
+	display: block;
+}
+/*View All button List*/
+.fa-chevron-down ul{
+	padding:0px;
+	width: 9rem;
+	position: absolute;
+	left: -40%;
+	background-color: white;
+}
+.queue-top ul{
+	display: none;
+}
+
 .queue-individual{
 	position: relative;
 }
+/*Songs HamBurger Icon List*/
 .queue-right button{
 	background-color: transparent;
 	border:none;
@@ -388,7 +472,6 @@ outline: none;
 .queue-right button:focus ul{
 	opacity: 1;
 }
-
 .fa-ellipsis-h ul{
 	opacity: 0;
 	cursor: pointer;
@@ -407,50 +490,15 @@ outline: none;
 	cursor: pointer;
 	list-style: none;
 	border-bottom: 1px solid grey;
-
 }
 .fa-ellipsis-h ul li i{
 	color: black;
 }
-.queue-top h1{
-	padding: 0px;
-	margin: 0px;
-	font-size: 2rem;
-}
-.queue-1 .queue-top button,
-.queue-2 .queue-top button {
-	font-size: 1rem;
-}
-.queue-2 .queue-bottom{
-   font-size: 1rem;
-}
-.queue-top button{
-	cursor: pointer;
-	background: transparent;
-	border:none;
-	color: #58b6e0;
-	font-size: 1.2rem;
-	position: relative;
-}
-.queue-top button:focus{
-	outline: none;
-}
-.fa-chevron-down ul{
-	padding:0px;
-	width: 9rem;
-	position: absolute;
-	left: -40%;
-	background-color: white;
-}
-.queue-top ul{
-	display: none;
-}
+/*Individual Songs*/
 .queue-bottom{
 	cursor: pointer;
 }
-.queue-top button:focus ul{
-	display: block;
-}
+/*Individual Songs Button on Right*/
 .fa-chevron-down li{
 	color: black;
 	padding:0.5rem 0rem;
@@ -465,7 +513,7 @@ outline: none;
 	margin-bottom: 1rem;
 }
 
-
+/*Song Image*/
 .queue-individual .queue-image{
 	width: 25%;
 	margin-right: 2%;
@@ -477,12 +525,13 @@ outline: none;
 	width: 100%;
 	height: 100%;
 }
+/*Song Name*/
 .queue-name p{
 	padding:0px;
 	margin:0px;
 	text-align: left;
-
 }
+/*Image and Name Setting*/
 .queue-left{
 	display: flex;
 	align-items: center;
@@ -490,12 +539,14 @@ outline: none;
 	width: 80%;
 	padding: 0px;
 }
+/*Heart Icon and List Button*/
 .queue-right{
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 }
+/*Scroll Bar*/
 ::-webkit-scrollbar{
   width: 0.5rem;
 }
@@ -510,12 +561,14 @@ outline: none;
   background:  #1f2961; 
 }
 
-/*--------------------------------------------------------------------------------------------------------------------------------------*/
+/*------------------------------------------Media Queries--------------------------------------------------------------------------*/
 @media screen and (max-width: 1500px){
+	/*Main Content*/
 	.main-content{
      width: 60%;
      display: inline-block;
 	}
+	/*Queue Section*/
 	.queue-main{
 		width: 35%;
 		display: inline-block;
@@ -523,6 +576,7 @@ outline: none;
 	.queue-top h1{
 		font-size: 1.1rem;
 	}
+	/*Artist Section*/
 	.artist-c-details-2 p{
 		font-size: 0.9rem !important;
 	}
@@ -544,7 +598,23 @@ outline: none;
 	main{
 		position: relative;
 	}
-
+    /*Header Section*/
+	.header-left{
+	margin-left: 2%;
+    font-size: 1.2rem;
+	}
+	/*Logo*/
+	#logo i{
+		font-size: 2.5rem;
+	}
+	#logo #studio-name{
+		font-size: 1.3rem;
+	}
+	/*Search bar*/
+	.search .icon{
+	font-size: 80%;
+    }
+    /*Queue Section*/
 	.queue-bottom {
 		font-size: 0.8rem;
 	}
@@ -565,7 +635,17 @@ outline: none;
 	.queue-top button{
 		font-size: 0.8rem !important;
 	}
-    
+	.queue{
+		margin-left: -40px;
+	} 
+	.queue-individual .fa-ellipsis-h ul li {
+             font-size: 0.7rem;
+	}
+    .queue-individual .fa-ellipsis-h ul{
+    	left:30%;
+    	width: 9rem;
+    }
+    /*Artist Section*/
     .artist-playlist-info p{
     	font-size: 90%;
     }
@@ -577,29 +657,6 @@ outline: none;
 		font-size: 200%;
 	}
          
-	.header-left{
-	margin-left: 2%;
-	}
-	#logo i{
-		font-size: 2.5rem;
-	}
-	#logo #studio-name{
-		font-size: 1.3rem;
-	}
-	.search .icon{
-	font-size: 80%;
-    }
-	.queue{
-		margin-left: -40px;
-	} 
-	.queue-individual .fa-ellipsis-h ul li {
-             font-size: 0.7rem;
-	}
-    .queue-individual .fa-ellipsis-h ul{
-    	left:30%;
-    	width: 9rem;
-    }
-   
 	.home{
 		display: inline-block;
 	}
@@ -608,13 +665,10 @@ outline: none;
 		margin: 2%;
 		font-size: 1.3rem;
 	}
-	.header-left{
-		font-size: 1.2rem;
-	}
 	.current-playing{
 		font-size: 0.7rem;
 	}
-	
+	/*Artist Section*/
 	.artist-c-details-2 p{
 		font-size: 0.8rem !important;
 	}
@@ -643,6 +697,7 @@ outline: none;
 
 }
 @media screen and (max-width: 900px){
+	/*Queue Section*/
 	.queue-name #q-song-name{
         font-size: 0.6rem;
 	}
@@ -652,7 +707,7 @@ outline: none;
 
 }
 @media screen and (max-width: 870px){
-	
+	/*Queue Section*/
 	.queue-main{
 		position: absolute; 
 		display: none;
@@ -660,11 +715,12 @@ outline: none;
 	.main-content{
 		width: 95%;
 	}
+	/*Favourite Button*/
 	.fav-main{
 		position: absolute;
      display: none;
 	}
-	
+	/*Current Playing Section*/
 	.current-playing{
 		font-size: 0.7rem;
 	}
@@ -680,41 +736,32 @@ outline: none;
 	}
 }
 @media screen and (max-width: 800px){
-	
+	/*Notification Section*/
 	.notification #my-pic{
 		width: 3rem;
 	}
 	.notification .fa-bell{
-		font-size: 1.2rem;
+		font-size: 1.2rem; 
 	}
-	.popular-artists .artist{
-		width: 16%;
-	}
-	.station p{
-		font-size: 1.4rem;
-	}
-	.mood{
-		font-size: 1rem;
-	}
-	.latest-english{
-		font-size: 1rem;
-	}
+    /*Favourite Button*/
 	#favourite{
 		font-size: 1rem;
 	}
 }
 
 @media screen and (max-width: 700px){
+	/*Header Section*/
 	.header-left{
 		width: 40%;
 	}
-
 	.header-right img{
 		width: 10rem;
 	}
+	/*Queue Section*/
 	.queue{
 		margin-left: 0px;
 	}
+	/*Current Playing Section*/
 	.current-playing{
 		height: 100px;
 	}
@@ -728,7 +775,7 @@ outline: none;
 	.main-content{
 		font-size: 1rem;
 	}
-	
+	/*Artist Section*/
 	.artist-c-details-2 p{
 		font-size: 0.6rem !important;
 	}
@@ -743,12 +790,11 @@ outline: none;
     .artist-c-details-3 button{
 		font-size: 0.6rem !important;
 	}
+	/*Header Section*/
  .header-left #logo{
     font-size: 1rem;
  }
- .latest-release{
- 	font-size: 1rem;
- }
+ /*Current Playing Section*/
  .curr-mid input{
  	width: 4rem;
  }
@@ -776,6 +822,7 @@ outline: none;
     header{
 		width: 560px;
 	}
+	/*Artist Section*/
 	.artist-c-details-2 p{
 		font-size: 0.6rem;
 	}
@@ -783,9 +830,11 @@ outline: none;
 		width: 6rem;
 		height: 1.3rem;
 	}
+	/*Queue Section*/
 	.queue{
 		font-size:0.5rem;
 	}
+	/*Current Playing Section*/
     .curr-mid input{
  		width: 3rem;
 	}
